@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <practice.zhy.com.myview.HistogramView
+            android:id="@+id/dazhang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            zhy:vHeight="100dp" />
+
+        <practice.zhy.com.myview.HistogramView
+            android:id="@+id/weizhang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            zhy:vHeight="100dp" />
+
+        <practice.zhy.com.myview.HistogramView
+            android:id="@+id/zhendang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            zhy:vHeight="100dp" />
+
+        <practice.zhy.com.myview.HistogramView
+            android:id="@+id/weidie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            zhy:vHeight="100dp" />
+
+        <practice.zhy.com.myview.HistogramView
+            android:id="@+id/dadie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            zhy:vHeight="100dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击" />
+</LinearLayout>
